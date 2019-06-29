@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="916.0" prefWidth="1442.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="operateScreen.HolidayController">
+   <children>
+      <Separator layoutY="3.0" prefHeight="86.0" prefWidth="1442.0" />
+      <Separator layoutY="830.0" prefHeight="86.0" prefWidth="1442.0" />
+      <TextField layoutX="51.0" layoutY="108.0" prefHeight="156.0" prefWidth="618.0" text="Holiday">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="51.0" layoutY="337.0" prefHeight="156.0" prefWidth="196.0" text="24">
+         <font>
+            <Font name="System Bold" size="72.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="512.0" layoutY="337.0" prefHeight="156.0" prefWidth="196.0" text="12">
+         <font>
+            <Font name="System Bold" size="72.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="878.0" layoutY="337.0" prefHeight="156.0" prefWidth="296.0" text="2018">
+         <font>
+            <Font name="System Bold" size="72.0" />
+         </font>
+      </TextField>
+      <Label layoutX="51.0" layoutY="57.0" text="Day of the Week" />
+      <Label layoutX="51.0" layoutY="280.0" text="Holiday - Day" />
+      <Label layoutX="505.0" layoutY="280.0" text="Holiday - Month" />
+      <Label layoutX="878.0" layoutY="280.0" text="Holiday - Year" />
+      <Button fx:id="upCurrentSetting" layoutX="271.0" layoutY="612.0" mnemonicParsing="false" onAction="#changeCurrent" prefHeight="60.0" prefWidth="77.0" text="+" />
+      <Button fx:id="downHolidayYear" layoutX="1195.0" layoutY="305.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="77.0" text="+" />
+      <Button fx:id="upHolidayMonth" layoutX="738.0" layoutY="305.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="77.0" text="+" />
+      <Button fx:id="upHolidayDay" layoutX="271.0" layoutY="305.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="77.0" text="+" />
+      <Button fx:id="upDayOfWeek" layoutX="684.0" layoutY="70.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="77.0" text="+" />
+      <TextField layoutX="63.0" layoutY="624.0" prefHeight="156.0" prefWidth="196.0" text="72">
+         <font>
+            <Font size="63.0" />
+         </font>
+      </TextField>
+      <Button fx:id="downDayOfWeek" layoutX="683.0" layoutY="186.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="77.0" text="-">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="1195.0" layoutY="435.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="77.0" text="-">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="downHolidayMonth" layoutX="738.0" layoutY="435.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="77.0" text="-">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="downHolidayDay" layoutX="271.0" layoutY="435.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="77.0" text="-">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="downCurrentSetting" layoutX="271.0" layoutY="725.0" mnemonicParsing="false" onAction="#changeCurrent" prefHeight="60.0" prefWidth="77.0" text="-">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="holidaySave" layoutX="539.0" layoutY="712.0" mnemonicParsing="false" prefHeight="136.0" prefWidth="209.0" text="Save">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="holidayReset" layoutX="803.0" layoutY="712.0" mnemonicParsing="false" prefHeight="136.0" prefWidth="209.0" text="Reset">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="holidayOperate" layoutX="1063.0" layoutY="712.0" mnemonicParsing="false" prefHeight="136.0" prefWidth="209.0" text="Operate">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label layoutX="59.0" layoutY="567.0" text="Current Setting" />
+      <Label text="View Programming" />
+   </children>
+</Pane>
